@@ -12,8 +12,8 @@ class _BmiCalcPageState extends State<BmiCalcPage> {
   TextEditingController heightEditingController = TextEditingController();
   TextEditingController weightEditingController = TextEditingController();
   double height = 0.0, weight = 0.0, bmi = 0.0;
-  AudioCache audioCache = new AudioCache();
-  AudioPlayer audioPlayer = new AudioPlayer();
+  AudioCache audioCache =  AudioCache();
+  AudioPlayer audioPlayer = AudioPlayer();
 
   @override
   Widget build(BuildContext context) {
